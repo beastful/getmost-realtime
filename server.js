@@ -8,6 +8,7 @@ const server = new Server({
   timeout: 60000,
   debounce: 5000,
   maxDebounce: 30000,
+  host: '0.0.0.0',
   quiet: true,
   websocketOptions: { maxPayload: 1024 * 1024 },
   extensions: [
