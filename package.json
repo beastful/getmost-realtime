@@ -9,5 +9,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "module",
+  "dependencies": {
+    "@hocuspocus/extension-logger": "^4.1.1",
+    "@hocuspocus/extension-sqlite": "^4.1.1",
+    "@hocuspocus/server": "^4.1.1"
+  }
 }
